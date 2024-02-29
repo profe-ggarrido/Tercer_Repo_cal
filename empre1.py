@@ -19,6 +19,8 @@ gt = float(input("Ingese gasto total: \n"))
 #CALCULO DE LA UTILIDAD
 
 util = p * u - gt
-print("El gasto total con los datos ingresados es: " + "{:,.2f}".format(util))
+
+limpiar_consola()
+print("La uyilidad con los datos ingresados es: " + "{:,.2f}".format(util))
 
 
